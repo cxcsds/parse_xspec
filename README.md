@@ -14,7 +14,7 @@ https://github.com/sherpa/sherpa/pull/1260
 
 Hopefully it's as simple as
 
-    pip install parse_xspec
+    pip install parse-xspec
 
 ot you can try installing directly from [GitHub](https://github.com/cxcsds/parse_xspec).
 
