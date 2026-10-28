@@ -449,7 +449,12 @@ def read_model_definition(fh):
     else:
         initString = None
 
-    flags = [int(t) for t in toks[6:]]
+    flags = []
+    for t in toks[6:]:
+        try:
+            flags.append(int(t))
+        except:
+            pass
 
     pars = []
     while len(pars) < npars:
